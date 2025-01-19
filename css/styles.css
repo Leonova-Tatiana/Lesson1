@@ -22,15 +22,20 @@ body {
 }
 
 /* =================== HEADER ======================== */
-.header {
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.container {
-}
+
 .header-logo {
 }
 .header-nav {
 }
 .header-list {
+  display: flex;
+  gap: 40px;
+  list-style: none;
 }
 .header-item {
 }
